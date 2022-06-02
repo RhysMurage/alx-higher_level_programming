@@ -3,6 +3,8 @@ from sys import argv
 
 n = len(argv)
 argSum = 0
-for i in range(1, n):
-    argSum += int(argv[i])
-print(argSum)
+
+if __name__ == "__main__":
+    for i in range(1, n):
+        argSum += int(argv[i])
+    print(argSum)
