@@ -5,4 +5,5 @@ class Square():
     An empty class
     Rieturns nothing.
     """
-    pass
+    def __init__(self):
+        pass
