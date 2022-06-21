@@ -8,7 +8,10 @@ class Square():
     """
     def __init__(self, size=0):
         """
-        size (int): first parameter
+        size initialization.
+
+        Args:
+            size: integer value
         """
         if type(size) != int:
             raise TypeError('size must be an integer')
