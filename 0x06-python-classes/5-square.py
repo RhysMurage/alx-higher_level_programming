@@ -45,7 +45,7 @@ class Square():
 
     def my_print(self):
         """
-        print square using #
+        print square using # to the stdout
         """
         height = 0
         length = 0
