@@ -39,4 +39,6 @@ class Square():
         """
         if type(self.__size) != int:
             raise TypeError('size must be an integer')
+        if self.__size < 0:
+            raise ValueError('size must be >= 0')
         return self.__size*self.__size
