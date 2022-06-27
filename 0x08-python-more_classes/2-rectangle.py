@@ -19,6 +19,18 @@ class Rectangle():
         self.__height = height
         self.__width = width
 
+    def area(self):
+        """
+        Calculate the area of a rectangle
+        """
+        return self.__height*self.__width
+
+    def perimeter(self):
+        """
+        Calculate the perimeter of a rectangle
+        """
+        return self.__width*2 + self.__height*2
+
     @property
     def height(self):
         """
@@ -48,15 +60,3 @@ class Rectangle():
         if value < 0:
             raise ValueError('width must be >= 0')
         self.__width = value
-
-    def area(self):
-        """
-        Calculate the area of a rectangle
-        """
-        return self.__height*self.__width
-
-    def perimeter(self):
-        """
-        Calculate the perimeter of a rectangle
-        """
-        return self.__width*2 + self.__height*2
