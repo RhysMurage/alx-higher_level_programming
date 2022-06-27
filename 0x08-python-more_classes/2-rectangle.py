@@ -23,13 +23,13 @@ class Rectangle():
         """
         Calculate the area of a rectangle
         """
-        return self.__height*self.__width
+        return self.height*self.width
 
     def perimeter(self):
         """
         Calculate the perimeter of a rectangle
         """
-        return self.__width*2 + self.__height*2
+        return self.width*2 + self.height*2
 
     @property
     def height(self):
