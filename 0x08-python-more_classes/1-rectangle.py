@@ -18,12 +18,12 @@ class Rectangle():
 
     @property
     def height(self):
-        """Returns the height of the rectangle"""
+        """int: Returns the height of the rectangle"""
         return self.__height
 
     @property
     def width(self):
-        """Returns the width of the rectangle"""
+        """int: Returns the width of the rectangle"""
         return self.__width
 
     @height.setter
