@@ -4,10 +4,13 @@
 
 
 class Rectangle():
-    """Define the dimensions of a rectangle"""
+    """
+    Define the dimensions of a rectangle
+    """
 
     def __init__(self, width=0, height=0):
-        """__init__ method
+        """
+        height and width initialization
 
         Args:
             width (int): length from side to side
@@ -18,12 +21,16 @@ class Rectangle():
 
     @property
     def height(self):
-        """int: Returns the height of the rectangle"""
+        """
+        int: Returns the height of the rectangle
+        """
         return self.__height
 
     @property
     def width(self):
-        """int: Returns the width of the rectangle"""
+        """
+        int: Returns the width of the rectangle
+        """
         return self.__width
 
     @height.setter
@@ -43,9 +50,13 @@ class Rectangle():
         self.__width = value
 
     def area(self):
-        """Computes the area"""
+        """
+        Calculate the area of a rectangle
+        """
         return self.__height*self.__width
 
     def perimeter(self):
-        """Computes the perimeter"""
+        """
+        Calculate the perimeter of a rectangle
+        """
         return self.__width*2 + self.__height*2
