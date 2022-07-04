@@ -23,7 +23,7 @@ class Rectangle(BaseGeometry):
 
     def area(self):
         """ returns the area of a rectangle by
-        overriding the area() method set in the 
+        overriding the area() method set in the
         BaseGeometry class
         """
 
