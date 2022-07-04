@@ -44,5 +44,3 @@ Using ``MyList``
 
 >>> list2.print_sorted()
 ['a', 'j', 'r']
-
->>> 
