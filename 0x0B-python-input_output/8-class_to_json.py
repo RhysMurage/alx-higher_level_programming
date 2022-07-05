@@ -10,4 +10,4 @@ def class_to_json(obj):
     """Returns a dictionary with simple data structures
     for JSON serialization of an object
     """
-    return json.dumps(vars(obj))
+    return json.dumps(obj.__dict__)
