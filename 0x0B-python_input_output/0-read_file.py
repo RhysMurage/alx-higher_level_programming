@@ -1,4 +1,4 @@
-#!/usr/bin/pyton3
+#!/usr/bin/python3
 """
 This module has a function that reads the txt file
 and prints its contents to the stdout
