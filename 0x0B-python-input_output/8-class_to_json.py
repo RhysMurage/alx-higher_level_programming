@@ -3,7 +3,6 @@
 Module that has a function that returns a dictionary with simple
 data structure for JSON serialization of an object
 """
-import json
 
 
 def class_to_json(obj):
