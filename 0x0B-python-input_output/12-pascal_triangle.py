@@ -3,6 +3,7 @@
 Module prints pascal's triangle
 """
 
+
 def pascal_triangle(n):
     """Prints pascal's triangle"""
     if n <= 0:
