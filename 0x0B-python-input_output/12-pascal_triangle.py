@@ -1,5 +1,10 @@
 #!/usr/bin/python3
+"""
+Module prints pascal's triangle
+"""
+
 def pascal_triangle(n):
+    """Prints pascal's triangle"""
     if n <= 0:
         return []
     pascal = []
