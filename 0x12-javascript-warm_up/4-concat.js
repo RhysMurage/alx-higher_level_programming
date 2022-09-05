@@ -1,4 +1,5 @@
 #!/usr/bin/node
+const process = require('process');
 
 let len = 0;
 for (const i of process.argv) {
