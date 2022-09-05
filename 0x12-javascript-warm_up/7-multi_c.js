@@ -1,4 +1,5 @@
 #!/usr/bin/node
+const process = require('process');
 
 let i = 0;
 
