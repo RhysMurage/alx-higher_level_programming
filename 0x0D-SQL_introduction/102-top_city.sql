@@ -3,5 +3,5 @@
 -- ordered by temperature descending
 SELECT city, AVG(value) AS avg_temp
 FROM temperatures
-WHERE month>6 AND month<=i8
+WHERE month>6 AND month<=8
 ORDER BY avg_temp DESC LIMIT 3;
